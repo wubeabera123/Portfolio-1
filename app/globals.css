@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.container-wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+@media (max-width: 1024px) {
+  .container-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tb-sp {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .tb-sp {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .tb-sp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Text size related styles */
+
+.h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .h1 {
+    font-size: 25px;
+  }
+}
+
+
+.h2 {
+  font-size: 40px;
+  font-weight: 700;    
+}
+
+@media (max-width: 1024px) {
+  .h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .h2 {
+    font-size: 20px;
+  }
+}
+
+
+.h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 640px) {
+  .h3 {
+    font-size: 18px;
+  }
+}
+
+.h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .h4 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .h4 {
+    font-size: 18px;
+  }
+}
+
+.h5 {
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .h5 {
+    font-size: 17px;
+  }
+}
+.p0 {
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .p0 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .p0 {
+    font-size: 14px;
+  }
+}
+
+.p1 {
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .p1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .p1 {
+    font-size: 15px;
+  }
+}
+
+
+.p2 {
+  font-size: 14px;
+  
+}
+@media (max-width: 1024px) {
+  .p2 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .p2 {
+    font-size: 12px;
+  }
+}
