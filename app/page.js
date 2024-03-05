@@ -1,8 +1,5 @@
 import Expertise from "@/components/Expertise";
-import Footer from "@/components/Footer";
-import GetInTouch from "@/components/GetInTouch";
 import { HomeBanner } from "@/components/HomeBanner";
-import Navbar from "@/components/Navbar";
 import TechSkills from "@/components/TechSkills";
 
 export default function Home() {

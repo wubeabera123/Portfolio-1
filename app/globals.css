@@ -196,3 +196,6 @@ body {
     font-size: 12px;
   }
 }
+.custom-outline:focus{
+  outline: solid 1px #30479c;
+}

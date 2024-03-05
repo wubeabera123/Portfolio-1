@@ -24,7 +24,7 @@ export default function Footer() {
                       <Link href="/portfolio" className='hover:underline hover:text-blue-400'>Portfolio</Link>
                       <Link href="/portfolio" className='hover:underline hover:text-blue-400'>Skills</Link>
                       <Link href="/portfolio" className='hover:underline hover:text-blue-400'>Education</Link>
-                      <Link href="/portfolio" className='hover:underline hover:text-blue-400'>Contact</Link>
+                      <Link href="/contact" className='hover:underline hover:text-blue-400'>Contact</Link>
                   </div>
               </div>
           <div className='flex flex-col  justify-center sm:items-start lg:items-center md:justify-start md:items-start xl:items-center mt-[40px]  sm:mt-[0]'>
