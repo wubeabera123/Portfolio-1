@@ -16,7 +16,7 @@ export default function Banner(props) {
         </div>
         <div className='container-wrapper absolute inset-y-0 left-0 flex flex-col justify-center items-start'>
             <h2 className='h2 text-white'>{props.title}</h2>
-            <p className='p0 text-white'>{props.subtitle}</p>
+            <p className='p0 text-white mt-[10px]'>{props.subtitle}</p>
         </div>
        </div>
     </div>
