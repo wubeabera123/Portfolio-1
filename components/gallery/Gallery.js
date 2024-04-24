@@ -29,15 +29,37 @@ const Gallery = () => {
 
   const galleryItems = [
     { id: 1, category: "Personal", imagePath: "/gallery/personal/img1.jpg" },
-    { id: 6, category: "Personal", imagePath: "/gallery/personal/img2.jpg" },
-    { id: 1, category: "Personal", imagePath: "/gallery/personal/img3.jpg" },
-    { id: 1, category: "Personal", imagePath: "/gallery/personal/img4.jpg" },
-    { id: 6, category: "Personal", imagePath: "/gallery/personal/img5.jpg" },
+    { id: 2, category: "Personal", imagePath: "/gallery/personal/img2.jpg" },
+    { id: 3, category: "Personal", imagePath: "/gallery/personal/img3.jpg" },
+    { id: 4, category: "Personal", imagePath: "/gallery/personal/img4.jpg" },
+    { id: 5, category: "Personal", imagePath: "/gallery/personal/img5.jpg" },
     { id: 6, category: "Personal", imagePath: "/gallery/personal/img6.jpg" },
-    { id: 2, category: "Friends", imagePath: "/assets/family business.jpg" },
-    { id: 3, category: "Friends", imagePath: "/assets/Ethiopias_Rules_on_Transfer_Pricing.jpg" },
-    { id: 4, category: "School", imagePath: "/assets/lowyield.jpg" },
-    { id: 5, category: "School", imagePath: "/assets/leader-1.png" },
+    { id: 7, category: "Friends", imagePath: "/gallery/friend/fd1.jpg" },
+    { id: 8, category: "Friends", imagePath: "/gallery/friend/fd2.jpg" },
+    { id: 9, category: "Friends", imagePath: "/gallery/friend/fd3.jpg" },
+    { id: 10, category: "Friends", imagePath: "/gallery/friend/fd4.jpg" },
+    { id: 11, category: "Friends", imagePath: "/gallery/friend/fd5.jpg" },
+    { id: 12, category: "Friends", imagePath: "/gallery/friend/fd6.jpg" },
+    { id: 13, category: "Friends", imagePath: "/gallery/friend/fd7.jpg" },
+    { id: 14, category: "Friends", imagePath: "/gallery/friend/fd8.jpg" },
+    { id: 15, category: "Friends", imagePath: "/gallery/friend/fd9.jpg" },
+    { id: 16, category: "Friends", imagePath: "/gallery/friend/fd10.jpg" },
+    { id: 17, category: "Friends", imagePath: "/gallery/friend/fd11.jpg" },
+    { id: 18, category: "Friends", imagePath: "/gallery/friend/fd12.jpg" },
+    { id: 19, category: "Friends", imagePath: "/gallery/friend/fd13.jpg" },
+    { id: 20, category: "Friends", imagePath: "/gallery/friend/fd14.jpg" },
+    { id: 21, category: "School", imagePath: "/gallery/school/sch1.jpg" },
+    { id: 22, category: "School", imagePath: "/gallery/school/sch2.jpg" },
+    { id: 23, category: "School", imagePath: "/gallery/school/sch3.jpg" },
+    { id: 24, category: "School", imagePath: "/gallery/school/sch4.jpg" },
+    { id: 25, category: "School", imagePath: "/gallery/school/sch5.jpg" },
+    { id: 26, category: "School", imagePath: "/gallery/school/sch6.jpg" },
+    { id: 27, category: "School", imagePath: "/gallery/school/sch7.jpg" },
+    { id: 28, category: "School", imagePath: "/gallery/school/sch8.jpg" },
+    { id: 29, category: "School", imagePath: "/gallery/school/sch9.jpg" },
+    { id: 30, category: "School", imagePath: "/gallery/school/sch10.jpg" },
+    { id: 31, category: "School", imagePath: "/gallery/school/sch11.jpg" },
+    { id: 32, category: "School", imagePath: "/gallery/school/sch12.jpg" },
   ];
 
   const filteredItems =
@@ -88,10 +110,9 @@ const Gallery = () => {
             {filteredItems.map((item) => (
               <div className="item" data-id={item.category} key={item.id}>
                 <div className="inner relative">
-                 
                   <Image
                     src={item.imagePath}
-                    alt="HST Gallery Photos"
+                    alt="Wubu Gallery Photos"
                     width={1000}
                     height={800}
                     className="w-full h-auto cursor-pointer"
