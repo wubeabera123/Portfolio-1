@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from "react";
 import { IoIosAdd, IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
-import { TfiClose } from "react-icons/tfi";
 import Image from 'next/image';
 import ShowPhoto from "./ShowPhoto";
 
