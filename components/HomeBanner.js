@@ -8,19 +8,19 @@ export const HomeBanner = () => {
   const homeBanners = [
     {
         id: '1',
-        image: '/homebanner1.jpg',
+        image: '/homebanner1-min.jpg',
         mainHeadline: 'Wubeshet Abera',
         subHeadline: 'FullStack Developer'
     },
     {
         id: '2',
-        image: '/homebanner2.jpg',
+        image: '/homebanner2-min.jpg',
         mainHeadline: 'Wubeshet Abera',
         subHeadline: 'Graphics Designer'
     },
     {
         id: '3',
-        image: '/homebanner3.jpg',
+        image: '/homebanner3-min.jpg',
         mainHeadline: 'Wubeshet Abera',
         subHeadline: 'Network Solution'
     }
