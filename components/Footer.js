@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
           </div>
         </div>
-        <p className='p2 text-slate-300 py-5 text-center'>All Rights Reserved</p>
+        <p className='p2 text-slate-300 py-5 text-center'>@2024 All Rights Reserved</p>
     </div>
   )
 }
