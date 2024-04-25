@@ -42,8 +42,8 @@ console.log(homeBanners)
           <Image
             className='w-full min-h-[250px] object-cover object-center'
             src={data.image}
-            width={1200}
-            height={1000}
+            width={1219}
+            height={500}
             alt={`banner${idx + 1} image`}
           />
         </div>
