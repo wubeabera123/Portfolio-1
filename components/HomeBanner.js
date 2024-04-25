@@ -8,7 +8,7 @@ export const HomeBanner = () => {
   const homeBanners = [
     {
         id: '1',
-        image: '/image1.jpg',
+        image: '/homebanner1.jpg',
         mainHeadline: 'Wubeshet Abera',
         subHeadline: 'FullStack Developer'
     },
@@ -42,7 +42,7 @@ console.log(homeBanners)
           <Image
             className='w-full min-h-[250px] object-cover object-center'
             src={data.image}
-            width={2000}
+            width={1200}
             height={1000}
             alt={`banner${idx + 1} image`}
           />
